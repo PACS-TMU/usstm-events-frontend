@@ -63,7 +63,7 @@ export default function Home() {
               alt="Cover/Title"
               width={1920}
               height={1080}
-              className='w-auto h-full'
+              className='w-full h-auto lg:w-auto lg:h-full'
               priority="true"
             />
           </div>
@@ -76,7 +76,7 @@ export default function Home() {
                 alt={event.title}
                 width={500}
                 height={500}
-                className='w-auto h-full'
+                className='w-full h-auto lg:w-auto lg:h-full'
                 priority="true"
               />
             </div>

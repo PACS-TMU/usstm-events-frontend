@@ -74,8 +74,8 @@ export default function Home() {
               <Image
                 src={`/images/${event.imageName}`}
                 alt={event.title}
-                width={500}
-                height={500}
+                width={1000}
+                height={1000}
                 className='w-full h-auto lg:w-auto lg:h-full'
                 priority="true"
               />

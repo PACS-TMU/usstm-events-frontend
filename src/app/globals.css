@@ -2,3 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    background-color: #B6C8DDFF;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #FFFAFA;
+  font-weight: bold;
+  display: none;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #FFFAFA;
+  }

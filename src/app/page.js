@@ -43,7 +43,16 @@ export default function Home() {
   }, []);
 
   const events = eventData.message;
-  events.sort((a, b) => (a.date > b.date) ? 1 : -1);
+  events.sort((a, b) => {
+    if (a.date > b.date) {
+      return 1;
+    } else if (a.date < b.date) {
+      return -1;
+    }
+    else {
+      return a.id - b.id;
+    }
+  });
 
   return (
     <section id="homepage">
